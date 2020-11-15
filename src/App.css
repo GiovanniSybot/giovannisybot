@@ -52,6 +52,18 @@
   min-height: 500px;
 }
 
+.side-bar-header{
+  color: #21295c;
+  justify-content: center;
+}
+
+.side-bar-line{
+  height: 1px;
+  background-color: #21295c;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
 .side-bar-button{
   padding: 15px;
   margin: 15px;
@@ -72,4 +84,48 @@
   padding: 25px;
   justify-content: center;
   min-height: 500px;
+}
+
+/* CSS MOBILE */
+@media (max-width:800px){
+  .page{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .side-bar{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 100px;
+  }
+
+  .side-bar-button{
+    padding: 5px;
+    margin: 5px;
+    font-size: 12px;
+    background-color: #21295C;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    outline:none;
+  }
+
+  .content{
+    width: 80%;
+    background-color: #fff;
+    color: #21295C;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 25px;
+    justify-content: center;
+    min-height: 500px;
+  }
 }

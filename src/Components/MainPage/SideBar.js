@@ -12,7 +12,7 @@ export default class SideBar extends Component {
         return(
             <div class="side-bar">
                 <div class="side-bar-header">
-
+                    Giovanni Marvila
                 </div>
                 <div class="side-bar-line">
 
